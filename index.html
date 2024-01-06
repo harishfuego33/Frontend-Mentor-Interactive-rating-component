@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- displays site properly based on user's device -->
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Interactive rating component</title>
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+</head>
+
+<body>
+    <section class="section1">
+        <div class="star">
+            <img src="./images/icon-star.svg" alt="start">
+        </div>
+        <div class="question">
+            <h1>How did we do?</h1>
+        </div>
+        <div class="query">
+            <p>Please let us know how we did with your support request. All feedback is appreciated to help us improve
+                our offering</p>
+        </div>
+        <div class="rates">
+            <button class="btn-1">1</button>
+            <button class="btn-2">2</button>
+            <button class="btn-3">3</button>
+            <button class="btn-4">4</button>
+            <button class="btn-5">5</button>
+        </div>
+        <button class="submit-btn" onclick="submit()">submit</button>
+    </section>
+    <section class="section2 hidden">
+        <img src="./images/illustration-thank-you.svg" alt="start">
+        <div class="total-rating">
+            <p>you selected 4 out 5</p>
+        </div>
+        <div class="question">
+            <H1>Thank you!</H1>
+        </div>
+        <div class="recommed">
+            <p>
+                We appreciate you taking the time to give a rating. If you ever need more support,
+                don’t hesitate to get in touch!
+            </p>
+        </div>
+    </section>
+    <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">HARISH KUMAR S</a>.
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
